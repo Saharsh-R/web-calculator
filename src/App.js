@@ -107,6 +107,9 @@ function App() {
 
   const decimal =  () => {
      setInput(c => {
+      if (!c){
+        return '0.'
+      }
       if (c.includes(".")){
         return c
       } else{
