@@ -97,7 +97,7 @@ function App() {
 
       setResult(r => r + input);
       setResult(r =>{
-        setInput(eval(r))
+        setInput(eval(r).toString())
         return ''
       })
 
@@ -136,7 +136,7 @@ function App() {
               </Grid>
 
               <Grid item xs >
-                <Typography id='display' noWrap variant="h4" style={{direction: 'rtl' }}>{input}</Typography>
+                <Typography id='display' noWrap variant="h4" >{input}</Typography>
               </Grid>
             </Grid>
 
