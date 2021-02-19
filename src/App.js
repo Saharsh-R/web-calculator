@@ -11,8 +11,7 @@ const useStyles = makeStyles((theme) => ({
   paper: {
     padding: theme.spacing(2),
     margin: 'auto',
-    width:'min(500px, 100vw)',
-    // maxWidth: 500,
+    width:'min(500px, 90vw)',
   },
   display: {
     backgroundColor: 'black',
